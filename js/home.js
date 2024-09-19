@@ -10,7 +10,7 @@ document.getElementById('btn-add-money').addEventListener('click',function(event
         const addmoneynumber =parseFloat(inputmoney)
         const addomneyblace =parseFloat(blance)
         
-        const newblance =addmoneynumber+addomneyblace
+        const newblance =addmoneynumber-addomneyblace
         document.getElementById('blance').innerText =newblance
 
     }
